@@ -1,15 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* margin: 0px; */
+    margin: 0px;
     padding: 0px;
 }
 .nav {
     color: gray;
     list-style-type: none;
     text-align: center;
-    display: flex;
-    gap: 5%;
-    justify-content: center;
     
 }
 
@@ -28,7 +25,7 @@ nav {
 
 li {
     display: inline-block;
-    /* margin: 0px 40px; */
+    margin: 0px 40px;
 }
 
 .giftos {
@@ -47,6 +44,7 @@ li {
 
 .pink {
     padding: 50px;
+    margin: 0px;
     background-color: #f89cab;
     color: white;
 }
@@ -76,7 +74,7 @@ li {
 
 .whitediv {
     padding: 50px 35px;
-    /* margin: 0px; */
+    margin: 0px;
 }
 
 .align-center {
@@ -100,7 +98,7 @@ li {
 }
 
 .boxes-parent {
-    /* margin: 0px 15px; */
+    margin: 0px 15px;
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -108,12 +106,12 @@ li {
 
 .img {
     width: 100px;
-    /* margin: 20px 40px; */
+    margin: 20px 40px;
 }
 
 .img1 {
     width: 80px;
-    /* margin: 13px 60px; */
+    margin: 13px 60px;
 }
 
 .price {
@@ -127,29 +125,29 @@ li {
 
 .img3 {
     width: 150px;
-    /* margin: 20px 20px; */
+    margin: 20px 20px;
 }
 .img4 {
     width: 137px;
-    /* margin: 13px 40px; */
+    margin: 13px 40px;
 }
 
 .img5 {
     width: 127px;
-    /* margin: 13px 40px; */
+    margin: 13px 40px;
 }
 
 
 
 .img7 {
     width: 91px;
-    /* margin: 20px 50px; */
+    margin: 20px 50px;
 }
 
 .contact-button-parent {
     display: flex;
     justify-content: center;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
 
 
@@ -158,7 +156,7 @@ li {
 }
 
 .blue {
-    /* margin: 70px 35px; */
+    margin: 70px 35px;
     background-color: #7fd7eb;
     border-radius: 10px;
     display: flex;
@@ -211,7 +209,7 @@ button {
 }
 
 .purple {
-    /* margin: 70px 35px; */
+    margin: 70px 35px;
     background-color: #6929a5;
     border-radius: 10px;
     display: flex;
@@ -241,7 +239,7 @@ button {
     /* justify-content: center; */
     padding: 0px 30px;
     box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
-    /* margin: 0px 20px; */
+    margin: 0px 20px;
 }
 
 .inputs {
@@ -254,7 +252,7 @@ button {
 
 .block {
     display: block;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     border-radius: 0px;
     outline: 0;
     border: 1px solid #919191;
@@ -272,7 +270,7 @@ button {
 }
 .block1 {
     display: block;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     border-radius: 0px;
     outline: 0;
     border: 1px solid #919191;
@@ -294,7 +292,7 @@ button {
     border: 2px solid #db4566;
     padding: 10px 30px;
     cursor: pointer;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     display: flex;
 }
 
@@ -319,7 +317,7 @@ button {
 .box {
     box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
     padding: 30px;
-    /* margin: 0px 20px 90px 20px; */
+    margin: 0px 20px 90px 20px;
 }
 
 
@@ -356,7 +354,7 @@ button {
 
 .block2 {
     display: block;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     border-radius: 0px;
     outline: 0;
     border: 1px solid #919191;
@@ -427,41 +425,6 @@ button {
  }
  .ordersite1{
     color: black;
-    /* margin: 15px 0px 0px 0px; */
+    margin: 15px 0px 0px 0px;
  }
 
- @media only screen and (max-width: 958px){
-
-    .inline1 {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-
-    .pink-father {
-        width: 100%;
-    }
-
-    nav {
-        padding: 5px 0px;
-        background-color: #f9ece6;
-        position: sticky;
-        top: 0px;
-        left: auto;
-        width: 100%;
-    }
-
-    .slider {
-        width: 250px;
-        height: 450px;
-    }
-
-    .boxes-parent {
-        /* margin: 0px 15px; */
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
- }
