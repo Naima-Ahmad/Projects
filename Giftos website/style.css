@@ -7,6 +7,9 @@ body {
     color: gray;
     list-style-type: none;
     text-align: center;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
     
 }
 
@@ -21,9 +24,6 @@ nav {
     position: sticky;
     top: 0px;
     left: auto;
-    display: flex;
-    gap: 20%;
-    justify-content: center;
 }
 
 li {
@@ -47,7 +47,6 @@ li {
 
 .pink {
     padding: 50px;
-    /* margin: 0px; */
     background-color: #f89cab;
     color: white;
 }
@@ -456,5 +455,13 @@ button {
     .slider {
         width: 250px;
         height: 450px;
+    }
+
+    .boxes-parent {
+        /* margin: 0px 15px; */
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
  }
