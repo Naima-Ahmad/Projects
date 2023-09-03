@@ -1,0 +1,430 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    color: gray;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+nav {
+    padding: 5px 0px;
+    background-color: #f9ece6;
+    position: sticky;
+    top: 0px;
+    left: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.giftos {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.white-button {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+
+.pink {
+    padding: 50px;
+    margin: 0px;
+    background-color: #f89cab;
+    color: white;
+}
+
+.contact-button {
+    color: white;
+    background-color: #db4566;
+    border: 2px solid #db4566;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline1 {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.slider {
+    height: 350px;
+}
+
+.whitediv {
+    padding: 50px 35px;
+    margin: 0px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.inlin-block {
+    padding: 15px;
+    background-color: #eee;
+    display: inline-block;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+}
+
+.new {
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.boxes-parent {
+    margin: 0px 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.img {
+    width: 100px;
+    margin: 20px 40px;
+}
+
+.img1 {
+    width: 80px;
+    margin: 13px 60px;
+}
+
+.price {
+    word-spacing: 85px;
+}
+
+
+.price2 {
+    word-spacing: 70px;
+}
+
+.img3 {
+    width: 150px;
+    margin: 20px 20px;
+}
+.img4 {
+    width: 137px;
+    margin: 13px 40px;
+}
+
+.img5 {
+    width: 127px;
+    margin: 13px 40px;
+}
+
+
+
+.img7 {
+    width: 91px;
+    margin: 20px 50px;
+}
+
+.contact-button-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.red {
+    color: #db4f66;
+}
+
+.blue {
+    margin: 70px 35px;
+    background-color: #7fd7eb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 35px;
+    padding-top: 35px;
+    gap: 35px;
+    align-content: center;
+}
+
+.girl {
+    display: flex;
+    align-items: end;
+}
+
+.same {
+    padding: 10px 40px;
+    border-radius: 0px;
+    border-color: transparent;
+    color: white;
+}
+
+.colorwhite {
+    color: black;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+.colorblue {
+    background-color: #109dbd;
+}
+
+.div-parent {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    gap: 30px;
+    padding: 55px 0px;
+}
+
+.boxes {
+    background-color: #f9f8f7;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.purple {
+    margin: 70px 35px;
+    background-color: #6929a5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 35px;
+    padding-top: 35px;
+    gap: 35px;
+}
+
+.bullons {
+    display: flex;
+    align-items: end;
+    padding-bottom: 25px;
+}
+
+.colorpurple {
+    background-color: #9242dd;
+}
+
+.contact-us {
+    padding-bottom: 20px;
+}
+
+.box-shadow {
+    display: flex;
+    /* justify-content: center; */
+    padding: 0px 30px;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    margin: 0px 20px;
+}
+
+.inputs {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+}
+
+.block {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    outline: 0;
+    border: 1px solid #919191;
+    height: 30px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+.block:focus {
+    border-radius: 0px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid #919191;
+    padding-left: 10px;
+}
+.block1 {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    outline: 0;
+    border: 1px solid #919191;
+    padding-left: 10px;
+    width: 70%;
+}
+
+.block1:focus {
+    border-radius: 0px;
+    outline: 0;
+    border: 1px solid #919191;
+    padding-left: 10px;
+    width: 70%;
+}
+
+.contact-button1 {
+    color: white;
+    background-color: #db4566;
+    border: 2px solid #db4566;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+}
+
+.abc {
+    /* border: 2px solid firebrick; */
+    display: flex;
+    justify-content: center;
+    /* width: ; */
+    width: 73%;
+}
+
+
+.cba {
+    padding-right: 5%;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+}
+
+.box {
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+    padding: 30px;
+    margin: 0px 20px 90px 20px;
+}
+
+
+
+
+.main {
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+}
+
+.imageabc {
+    width: 20px;
+    cursor: pointer;
+}
+
+.main-child1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.gray {
+    color: #cbc9c9;
+}
+
+.inputs-chlid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.block2 {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    outline: 0;
+    border: 1px solid #919191;
+    height: 30px;
+    /* padding-left: 10px; */
+    width: 100%;
+    padding-left: 10px;
+}
+
+.block2:focus {
+    border-radius: 0px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid #919191;
+    /* padding-left: 10px; */
+}
+
+.flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.subscribe {
+    background-color: #f89cab;
+    color: white;
+    border: #f89cab;
+    padding: 5px 20px;
+}
+
+.samediv {
+    width: 20%;
+}
+
+.icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    padding: 1px;
+}
+
+.ordersite {
+    color: black;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+    .inline1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .boxes-parent {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+ } */
+
+ .boxes-parent1{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+ }
+ .ordersite1{
+    color: black;
+    margin: 15px 0px 0px 0px;
+ }
+
