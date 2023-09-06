@@ -1,0 +1,7 @@
+.spinner-div {
+    display: flex;
+}
+
+.spinner {
+    align-self: center;
+}
