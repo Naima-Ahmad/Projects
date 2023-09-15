@@ -1,3 +1,8 @@
 .a {
     color: white !important;
 }
+
+.large-size {
+    font-size: 60px;
+    font-weight: bold;
+}
