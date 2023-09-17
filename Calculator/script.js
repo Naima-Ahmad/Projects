@@ -13,5 +13,6 @@ function clrall(){
 }
 
 function clr(){
-    var a = document.getElementById("inpt")
+    var a = document.getElementById("inpt");
+    a.value = a.value.slice(0,-1);
 }
