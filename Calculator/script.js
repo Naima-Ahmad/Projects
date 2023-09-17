@@ -8,5 +8,5 @@ function eql(){
 }
 
 function clrall(){
-    var a = document.getElementById("")
+    var a = document.getElementById("inpt")
 }
