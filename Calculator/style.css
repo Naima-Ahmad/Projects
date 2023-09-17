@@ -36,8 +36,17 @@ button {
     
 }
 
+.buton1 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5A34D !important;
+    
+}
+
 .clr {
-    width: 40px;
+    width: 70px;
     height: 30px;
     
 }
@@ -48,8 +57,9 @@ button {
    
 }
 
-.border {
-    border: 2px solid greenyellow;
-    width: ;
-}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main">
-        <div class="input">
-            <input type="text" name="" id="inpt">
-        </div>
-        <div class="inpurv">
-            <br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="input">
+                <input type="text" name="" id="inpt">
+            </div>
+            <div class="inpurv">
+                <br>
+                <div class="gap">
+                    
+                    <button onclick="clrall()" class="clr" id="clr">Clear All</button>
+                    <button onclick="clr()" class="clr">Clear</button>
+                </div>
             <div class="gap">
                 <button class="buton" onclick="typing(9)">9</button>
                 <button class="buton" onclick="typing(8)">8</button>
@@ -37,13 +42,8 @@
                 <button class="buton" onclick="typing(0)">0</button>
                 <button class="buton" onclick="typing('.')">.</button>
                 <button class="buton" onclick="typing('/')">/</button>
-                <button class="buton" onclick="eql()">=</button>
+                <button class="buton1" onclick="eql()">=</button>
             </div>
-            </div>
-            <div class="gap border">
-                <button class="buton" onclick="typing('%')">%</button>
-                <button onclick="clrall()" class="clr" id="clr">Clear All</button>
-                <button onclick="clr()">Clear</button>
             </div>
         </div>
     </div>
