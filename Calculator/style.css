@@ -10,8 +10,12 @@
 
 button {    
     background-color: #5F7783 !important;
-    /* border: black; */
+    border: 2px solid #3C5A65;
+    border-top: 4px solid #3C5A65;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gap {
@@ -33,15 +37,19 @@ button {
 }
 
 .clr {
-    width: 100px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     
 }
 
 .clear {
     width: 40px;
-    height: 20px;
+    height: 30px;
    
 }
 
+.border {
+    border: 2px solid greenyellow;
+    width: ;
+}
 
