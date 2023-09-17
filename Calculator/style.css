@@ -1,14 +1,17 @@
 .main {
-    background-color: rgb(62, 62, 62);
+    background-color: #3C5A65;
     padding: 20px;
     max-width: 170px;
     min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-button {
-background: rgb(230,137,23);
-background: linear-gradient(0deg, rgba(230,137,23,1) 0%, rgba(240,200,18,1) 100%);
-border-radius: 3px;
+button {    
+    background-color: #5F7783 !important;
+    /* border: black; */
+    color: white;
 }
 
 .gap {
@@ -20,3 +23,25 @@ border-radius: 3px;
 #inpt {
     width: 100%;
 }
+
+.buton {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.clr {
+    width: 100px;
+    height: 20px;
+    
+}
+
+.clear {
+    width: 40px;
+    height: 20px;
+   
+}
+
+
