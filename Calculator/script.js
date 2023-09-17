@@ -13,5 +13,5 @@ function clrall(){
 }
 
 function clr(){
-    var a = document
+    var a = document.getElementById
 }
