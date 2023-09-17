@@ -2,7 +2,11 @@ function typing(a){
   document.getElementById("inpt").value += a
 }
 
-function equl(){
+function eql(){
  var a =  document.getElementById("inpt");
  a.value = eval(a.value);
+}
+
+function clrall(){
+    
 }
