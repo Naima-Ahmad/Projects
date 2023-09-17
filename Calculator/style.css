@@ -1,0 +1,22 @@
+.main {
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    max-width: 170px;
+    min-width: 170px;
+}
+
+button {
+background: rgb(230,137,23);
+background: linear-gradient(0deg, rgba(230,137,23,1) 0%, rgba(240,200,18,1) 100%);
+border-radius: 3px;
+}
+
+.gap {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#inpt {
+    width: 100%;
+}
