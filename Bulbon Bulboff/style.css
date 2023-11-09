@@ -1,4 +1,14 @@
-#button1{
+.button{
+    background-color: rgb(169, 87, 246);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 2px solid rgb(169, 87, 246);
+    border-radius: 4px;
+    font-size: large;
+}
+
+.button1:hover{
     background-color: blueviolet;
     color: white;
     width: 70px;
@@ -6,4 +16,6 @@
     border: 2px solid blueviolet;
     border-radius: 4px;
     font-size: large;
+    box-shadow: 1px 3px 10px rgb(45, 45, 45);
+    
 }
