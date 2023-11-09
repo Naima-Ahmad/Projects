@@ -4,5 +4,5 @@ function onbulb(){
 }
 
 function offbulb(){
-    var a = document.getElementById("bulboff")
+    var a = document.getElementById("bulboff");
 }
