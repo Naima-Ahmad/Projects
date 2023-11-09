@@ -1,3 +1,9 @@
 #button1{
-    
+    background-color: blueviolet;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    font-size: large;
 }
