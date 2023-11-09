@@ -5,5 +5,5 @@ function onbulb(){
 
 function offbulb(){
     var a = document.getElementById("bulboff");
-    a.src='./images/bulbof.webp'
+    a.src='./images/bulbof.webp';
 }
