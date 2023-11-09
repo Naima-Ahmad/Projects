@@ -1,3 +1,3 @@
 function onbulb(){
-    var a = document.getElementById
+    var a = document.getElementById("bulboff")
 }
