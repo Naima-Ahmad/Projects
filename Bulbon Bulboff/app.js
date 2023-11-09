@@ -1,4 +1,4 @@
 function onbulb(){
     var a = document.getElementById('bulboff');
-    a.src='bulbon.webp'
+    a.src='bulbon.webp';
 }
