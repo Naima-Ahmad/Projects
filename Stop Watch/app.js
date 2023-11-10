@@ -1,5 +1,5 @@
 var su = document.getElementById('sup')
-su.innerHTML = getDay()
+// su.innerHTML = getDay()
 
 var hr = 0;
 var min = 0;
@@ -52,3 +52,6 @@ function reset(){
     c.innerHTML = min
     d.innerHTML = hr
 }
+
+var sr = document.getElementById('p')
+sr.innerHTML = getDay();
