@@ -14,6 +14,7 @@ function start(){
         if(msec >= 100){
             sec++
             b.innerHTML = sec;
+            msec = 0
         }
     },10)
 }
