@@ -27,9 +27,9 @@ body{
 .button-div{
     display: flex;
     justify-content: center;
-    gap: 100px;
-    width: 697px;
-    border: 2px solid green;
+    gap: 80px;
+    width: 597px;
+    /* border: 2px solid green; */
 }
 
 .big{
