@@ -6,9 +6,10 @@ var a = document.getElementById('msec')
 var b = document.getElementById('sec')
 var c = document.getElementById('min')
 var d = document.getElementById('hr')
+var interval;
 
 function start(){
-    setInterval(function(){
+interval = setInterval(function(){
         msec++       
         a.innerHTML = msec;
         if(msec >= 100){
@@ -16,16 +17,31 @@ function start(){
             b.innerHTML = sec;
             msec = 0;
         }
-        else if(sec >= 2){
+        else if(sec >= 6){
             min++
             c.innerHTML = min
             sec = 0
         }
-        else if(min >= 2){
+        else if(min >= 6){
             hr++
             d.innerHTML = hr
             min = 0
         }
 
     },10)
+}
+
+function pause(){
+    clearInterval(interval);
+}
+
+function reset(){
+    msec = 0
+    sec = 0
+    min = 0
+    hr = 0
+    a.innerHTML = msec
+    b.innerHTML = sec
+    c.innerHTML = min
+    d.innerHTML = hr
 }
