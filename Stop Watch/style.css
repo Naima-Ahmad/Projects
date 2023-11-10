@@ -50,8 +50,8 @@ h1{
 }
 
 .button{
-    font-size: 13px;
-     margin-top: 40px;
+    font-size: 15px;
+    margin-top: 40px;
     margin-bottom: 60px; 
 }
 
@@ -59,7 +59,7 @@ h1{
     background-color: rgb(38, 61, 113);
     color: white;
     border: 2px solid rgb(38, 61, 113);
-    padding: 7px 25px;
+    padding: 10px 30px;
     border-radius: 3px;
 }
 
@@ -68,7 +68,7 @@ h1{
     background-color: rgb(196, 31, 51);
     color: white;
     border: 2px solid rgb(196, 31, 51);
-    padding: 7px 35px;
+    padding: 10px 40px;
     border-radius: 3px;
 }
 
@@ -76,10 +76,12 @@ h1{
     background-color: rgb(35, 177, 113);
     color: white;
     border: 2px solid rgb(35, 177, 113 );
-    padding: 7px 25px;
+    padding: 10px 30px;
     border-radius: 3px;
 }
-@media screen and (max-width: 1400px) {
+
+
+@media screen and (max-width: 900px) {
     body{
         background-color: rgb(18, 133, 240);
         display: flex;
@@ -97,7 +99,8 @@ h1{
         display: flex;
         justify-content: center;
         background-color: white;
-        width: 450px;
+        width: 500px;
+        height: 100px;
         border-radius: 3px;
         box-shadow: rgba(17, 17, 26, 0.169) 0px 0px 16px;
     }
@@ -119,14 +122,14 @@ h1{
     .big{
         padding-left: 20px;
         padding-right: 20px;
-        width: 450px;
+        width: 500px;
         padding-top: 20px;
         background-color: rgb(251, 251, 251);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 200px;
+        height: 230px;
     }
     
     .button{
@@ -160,7 +163,7 @@ h1{
     }
   }
 
-@media screen and (max-width: 1058px) {
+@media screen and (max-width: 650px) {
     body{
         background-color: rgb(18, 133, 240);
         display: flex;
@@ -178,7 +181,8 @@ h1{
         display: flex;
         justify-content: center;
         background-color: white;
-        width: 350px;
+        width: 400px;
+        height: 100px;
         border-radius: 3px;
         box-shadow: rgba(17, 17, 26, 0.169) 0px 0px 16px;
     }
@@ -192,7 +196,7 @@ h1{
     .button-div{
         display: flex;
         justify-content: center;
-        gap: 60px;
+        gap: 40px;
         width: 300px;
         /* border: 2px solid green; */
     }
@@ -200,7 +204,88 @@ h1{
     .big{
         padding-left: 20px;
         padding-right: 20px;
-        width: 350px;
+        width: 400px;
+        padding-top: 20px;
+        background-color: rgb(251, 251, 251);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 230px;
+    }
+    
+    .button{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .pau{
+        background-color: rgb(38, 61, 113);
+        color: white;
+        border: 2px solid rgb(38, 61, 113);
+        padding: 7px 24px;
+        border-radius: 3px;
+    }
+    
+    
+    .sta{
+        background-color: rgb(196, 31, 51);
+        color: white;
+        border: 2px solid rgb(196, 31, 51);
+        padding: 7px 27px;
+        border-radius: 3px;
+    }
+    
+    .res{
+        background-color: rgb(35, 177, 113);
+        color: white;
+        border: 2px solid rgb(35, 177, 113 );
+        padding: 5px 23px;
+        border-radius: 3px;
+    }
+  }
+@media screen and (max-width: 485px) {
+    body{
+        background-color: rgb(18, 133, 240);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        border: 2px solid greenyellow;
+        height: 100vh;
+    }
+    
+    
+    h1{
+        font-size: 30px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: 300px;
+        height: 80px;
+        border-radius: 3px;
+        box-shadow: rgba(17, 17, 26, 0.169) 0px 0px 16px;
+    }
+    
+    .width{
+        width: 120px;
+        /* border: 2px solid greenyellow; */
+        text-align: center;
+    }
+    
+    .button-div{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 300px;
+        /* border: 2px solid green; */
+    }
+    
+    .big{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 300px;
         padding-top: 20px;
         background-color: rgb(251, 251, 251);
         border-radius: 5px;
@@ -228,7 +313,7 @@ h1{
         background-color: rgb(196, 31, 51);
         color: white;
         border: 2px solid rgb(196, 31, 51);
-        padding: 5px 23px;
+        padding: 5px 22px;
         border-radius: 3px;
     }
     
@@ -236,7 +321,8 @@ h1{
         background-color: rgb(35, 177, 113);
         color: white;
         border: 2px solid rgb(35, 177, 113 );
-        padding: 5px 19px;
+        padding: 5px 18px;
         border-radius: 3px;
     }
   }
+
