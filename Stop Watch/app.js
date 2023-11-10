@@ -1,3 +1,6 @@
+var su = document.getElementById('sup')
+su.innerHTML = getDay()
+
 var hr = 0;
 var min = 0;
 var sec = 0;
@@ -7,6 +10,9 @@ var b = document.getElementById('sec')
 var c = document.getElementById('min')
 var d = document.getElementById('hr')
 var interval;
+
+
+
 
 function start(){
 interval = setInterval(function(){
@@ -27,12 +33,13 @@ interval = setInterval(function(){
             d.innerHTML = hr
             min = 0
         }
-
     },10)
+    document.getElementById('start').disabled = true;
 }
 
 function pause(){
     clearInterval(interval);
+    document.getElementById('start').disabled = false;
 }
 
 function reset(){
