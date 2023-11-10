@@ -18,17 +18,17 @@ function start(){
 interval = setInterval(function(){
         msec++       
         a.innerHTML = msec;
-        if(msec >= 100){
+        if(msec > 100){
             sec++
             b.innerHTML = sec;
             msec = 0;
         }
-        else if(sec >= 60){
+        else if(sec > 60){
             min++
             c.innerHTML = min
             sec = 0
         }
-        else if(min >= 60){
+        else if(min > 60){
             hr++
             d.innerHTML = hr
             min = 0
