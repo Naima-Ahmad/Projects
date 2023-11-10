@@ -16,10 +16,16 @@ function start(){
             b.innerHTML = sec;
             msec = 0;
         }
-        else if(sec >= 60){
+        else if(sec >= 2){
             min++
             c.innerHTML = min
             sec = 0
         }
+        else if(min >= 2){
+            hr++
+            d.innerHTML = hr
+            min = 0
+        }
+
     },10)
 }
