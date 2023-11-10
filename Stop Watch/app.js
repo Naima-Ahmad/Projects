@@ -53,5 +53,4 @@ function reset(){
     d.innerHTML = hr
 }
 
-var sr = document.getElementById('p')
-sr.innerHTML = getDay();
+// var sr = document.getElementById('p').innerHTML =  ;
