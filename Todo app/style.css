@@ -1,7 +1,22 @@
+
+ .h1{
+    font-size: 50px;
+    text-align: center;
+    color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
 body{
     background-color: rgb(255, 246, 232);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
+h1{
+    margin-left: 10px;
+}
 .add{
     height: 24px;
     width: 50px;
@@ -60,40 +75,421 @@ margin-top: 4px;
 .lab{
 display: flex;
 justify-content: right;
-align-content: center;
+align-self: flex-start;
+/* background-color: blue; */
 }
 .beauty{
 background-color: blueviolet;
 color: white;
 border: 2px solid blueviolet;
-margin-left: 10px;
+margin-left: 3px;
 height: 23px;
 margin-top: 4px;
 margin-bottom: 4px;
 }
 
 .down{
-    position: absolute;
+    position: fixed;
     bottom: 30px;
-    left: 30px;
+    left: 0px;
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid blue; */
+    width: 100%;
+    justify-content: center;
+    
 }
 
-@media screen and (min-width: 1119px) {
+
+
+@media screen and (min-width: 900px) {
     .inpt{
-        width: 400px;
-        height: 29px;
+        width: 500px;
+        height: 31px;
         padding-left: 15px;
         font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
     .add{
-        width: 100px;
-        height: 33px;
+        width: 60px;
+        height: 35px;
         font-size: large;
+        background-color: green;
+        border: green;
     }
     .dall{
-        width: 100px;
-        height: 33px;
+        width: 90px;
+        height: 35px;
         font-size: large;
+        background-color: rgb(185, 30, 30);
+        border: rgb(185, 30, 30);
+    }
+    
+    button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 6px 13px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .aib{
+    margin-left: 60px;
+    background-color: rgb(185, 30, 30);
+    color: white;
+    border: 2px solid rgb(185, 30, 30);
+    height: 30px;
+    width: 90px;
+    font-size: 17px;
+    margin-top: 4px;
+    }
+    .lab{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        /* background-color: blue; */
+    }
+    .beauty{
+    font-size: 17px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin-left: 5px;
+    height: 30px;
+    width: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    
+  }
+
+
+  @media screen and (min-width: 1421px) {
+    
+    .inpt{
+        width: 600px;
+        height: 31px;
+        padding-left: 15px;
+        font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .add{
+        width: 120px;
+        height: 35px;
+        font-size: large;
+        background-color: green;
+        border: green;
+    }
+    .dall{
+        width: 120px;
+        height: 35px;
+        font-size: large;
+        background-color: rgb(185, 30, 30);
+        border: rgb(185, 30, 30);
+    }
+    
+    button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 7px 13px;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .aib{
+    margin-left: 60px;
+    background-color: rgb(185, 30, 30);
+    color: white;
+    border: 2px solid rgb(185, 30, 30);
+    height: 30px;
+    width: 90px;
+    font-size: 17px;
+    margin-top: 4px;
+    }
+    .lab{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        /* background-color: blue; */
+    }
+    .beauty{
+    font-size: 17px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin-left: 5px;
+    height: 30px;
+    width: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    
+  }
+
+  
+  @media screen and (min-width: 1607px) {
+    
+    .inpt{
+        width: 700px;
+        height: 40px;
+        padding-left: 20px;
+        font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .add{
+        width: 70px;
+        height: 43px;
+        font-size: 20px;
+        background-color: green;
+        border: green;
+    }
+    .dall{
+        width: 120px;
+        height: 43px;
+        font-size: 20px;
+        background-color: rgb(185, 30, 30);
+        border: rgb(185, 30, 30);
+    }
+    
+    button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 8px 13px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .aib{
+    margin-left: 60px;
+    background-color: rgb(185, 30, 30);
+    color: white;
+    border: 2px solid rgb(185, 30, 30);
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    margin-top: 4px;
+    }
+    .lab{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        /* background-color: blue; */
+    }
+    .beauty{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin-left: 5px;
+    height: 30px;
+    width: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    
+  }
+
+  
+@media screen and (max-width: 900px) {
+    .inpt{
+        width: 300px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .h1{
+        font-size: 40px;
+        text-align: center;
+        color: coral;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .add{
+        width: 60px;
+        height: 30px;
+        font-size: large;
+        background-color: green;
+        border: green;
+    }
+    .dall{
+        width: 90px;
+        height: 30px;
+        font-size: large;
+        background-color: rgb(185, 30, 30);
+        border: rgb(185, 30, 30);
+    }
+    
+    button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 10px 13px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .aib{
+    margin-left: 60px;
+    background-color: rgb(185, 30, 30);
+    color: white;
+    border: 2px solid rgb(185, 30, 30);
+    height: 29px;
+    width: 80px;
+    font-size: 16px;
+    margin-top: 4px;
+    }
+    .lab{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        /* background-color: blue; */
+    }
+    .beauty{
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin-left: 5px;
+    height: 29px;
+    width: 55px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    
+  }
+@media screen and (max-width: 540px) {
+    .inpt{
+        width: 170px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .add{
+        width: 45px;
+        height: 30px;
+        font-size: large;
+        background-color: green;
+        border: green;
+    }
+    .dall{
+        width: 90px;
+        height: 30px;
+        font-size: large;
+        background-color: rgb(185, 30, 30);
+        border: rgb(185, 30, 30);
+    }
+
+    
+    .h1{
+        font-size: 40px;
+        text-align: center;
+        color: coral;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .aib{
+    margin-left: 60px;
+    background-color: rgb(185, 30, 30);
+    color: white;
+    border: 2px solid rgb(185, 30, 30);
+    height: 29px;
+    width: 65px;
+    font-size: 16px;
+    margin-top: 4px;
+    }
+    .lab{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        /* background-color: blue; */
+    }
+    .beauty{
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin-left: 5px;
+    height: 29px;
+    width: 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    
+  }
+
+@media screen and (max-width: 370px) {
+    .inpt{
+        width: 93%;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .down{
+        width: 99%;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+}
+
+    .add{
+        width: 48%;
+    }
+    .dall{
+        width: 50%;
     }
   }
