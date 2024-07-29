@@ -43,10 +43,10 @@ function pause(){
 }
 
 function reset(){
-    msec = 0
-    sec = 0
-    min = 0
-    hr = 0
+    msec = "00"
+    sec = "00"
+    min = "00"
+    hr = "00"
     a.innerHTML = msec
     b.innerHTML = sec
     c.innerHTML = min
